@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Griya Satya | Your Home Away From Home in Semarang</title>
+    <meta name="description"
+        content="Experience the warmth of traditional Javanese hospitality at Griya Satya Guest House. Cozy, affordable accommodations perfect for families and travelers in Semarang.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/icon.png">
+    <link rel="apple-touch-icon" href="assets/icon.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="app.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Public+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="assets/logo.png" alt="Griya Satya Logo">
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#guesthouse">Our Homes</a></li>
+                <li><a href="#features">Amenities</a></li>
+                <li><a href="#about">Our Story</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <figure class="background">
+                <img src="assets/gs1in.jpeg" alt="Cozy interior of Griya Satya">
+                <div class="overlay"></div>
+            </figure>
+            <div class="hero-content">
+                <span class="badge">Est. 2020 • Semarang, Indonesia</span>
+                <h1>Welcome to <em>Griya Satya</em></h1>
+                <p class="tagline">Where every guest becomes family</p>
+                <p class="description">Discover the warmth of a traditional Javanese home with modern comforts. Perfect
+                    for families, travelers, and anyone seeking a peaceful retreat in the heart of Semarang.</p>
+                <div class="hero-cta">
+                    <a href="#guesthouse" class="btn btn-primary">Explore Our Homes</a>
+                    <a href="https://wa.me/yourphonenumber" class="btn btn-secondary">
+                        <i class="fab fa-whatsapp"></i> Ask Us
+                    </a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll to explore</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- Guest House Section -->
+        <section id="guesthouse">
+            <div class="section-header">
+                <span class="section-label">Our Accommodations</span>
+                <h2>Find Your Perfect Stay</h2>
+                <p class="section-subtitle">Two unique homes, each offering comfort, privacy, and that special feeling
+                    of being truly welcomed</p>
+            </div>
+
+            <div class="guesthouse-grid">
+                <!-- Griya Satya 1 -->
+                <article class="card" data-modal="gs1" data-title="Griya Satya 1"
+                    data-description="A charming, intimate space perfect for small families or close friends looking for a cozy getaway. This beautiful 3-bedroom guest house offers a warm and welcoming atmosphere with traditional Javanese touches combined with modern amenities. Perfect for family reunions, small group getaways, or a peaceful retreat from the city bustle."
+                    data-rooms="3" data-guests="4-6"
+                    data-images="assets/gs1in.jpeg,assets/gs1.jpg,assets/gs1front.jpg,assets/gs1room.jpg,assets/gs1top.jpeg"
+                    data-airbnb="https://www.airbnb.com/rooms/50525869?viralityEntryPoint=1&s=76">
+                    <div class="card-badge">Most Popular</div>
+                    <div class="image-container">
+                        <button class="nav-btn prev-btn" aria-label="Previous image"><i
+                                class="fas fa-chevron-left"></i></button>
+                        <div class="image-wrapper">
+                            <img src="assets/gs1in.jpeg" class="guesthouse-img active"
+                                alt="Griya Satya 1 - Cozy living area">
+                            <img src="assets/gs1.jpg" class="guesthouse-img" alt="Griya Satya 1 - Exterior view">
+                            <img src="assets/gs1front.jpg" class="guesthouse-img" alt="Griya Satya 1 - Front entrance">
+                            <img src="assets/gs1room.jpg" class="guesthouse-img"
+                                alt="Griya Satya 1 - Comfortable bedroom">
+                            <img src="assets/gs1top.jpeg" class="guesthouse-img" alt="Griya Satya 1 - Aerial view">
+                        </div>
+                        <button class="nav-btn next-btn" aria-label="Next image"><i
+                                class="fas fa-chevron-right"></i></button>
+                        <div class="image-dots"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Griya Satya 1</h3>
+                        <p class="card-description">A charming, intimate space perfect for small families or close
+                            friends looking for a cozy getaway.</p>
+                        <div class="features-list">
+                            <div class="feature">
+                                <i class="fas fa-bed"></i>
+                                <span>3 Bedrooms</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-users"></i>
+                                <span>4-6 Guests</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-wifi"></i>
+                                <span>Free WiFi</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-details">
+                            <i class="fas fa-info-circle"></i> View Details
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Griya Satya 2 -->
+                <article class="card" data-modal="gs2" data-title="Griya Satya 2"
+                    data-description="Spacious and welcoming, ideal for larger families or groups seeking comfort and togetherness. This 4-bedroom guest house provides ample space for everyone, featuring a cozy living room perfect for gatherings, a fully-equipped kitchen, and comfortable bedrooms that will make you feel right at home. Ideal for extended family trips or friend group vacations."
+                    data-rooms="4" data-guests="6-8"
+                    data-images="assets/gs2in.jpg,assets/gs2front.jpg,assets/gs2lr.jpg,assets/gs2room.jpg"
+                    data-airbnb="https://www.airbnb.com/rooms/562751165423219536?viralityEntryPoint=1&s=76">
+                    <div class="card-badge secondary">Family Favorite</div>
+                    <div class="image-container">
+                        <button class="nav-btn prev-btn" aria-label="Previous image"><i
+                                class="fas fa-chevron-left"></i></button>
+                        <div class="image-wrapper">
+                            <img src="assets/gs2in.jpg" class="guesthouse-img active"
+                                alt="Griya Satya 2 - Interior view">
+                            <img src="assets/gs2front.jpg" class="guesthouse-img" alt="Griya Satya 2 - Front view">
+                            <img src="assets/gs2lr.jpg" class="guesthouse-img" alt="Griya Satya 2 - Living room">
+                            <img src="assets/gs2room.jpg" class="guesthouse-img"
+                                alt="Griya Satya 2 - Comfortable bedroom">
+                        </div>
+                        <button class="nav-btn next-btn" aria-label="Next image"><i
+                                class="fas fa-chevron-right"></i></button>
+                        <div class="image-dots"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Griya Satya 2</h3>
+                        <p class="card-description">Spacious and welcoming, ideal for larger families or groups seeking
+                            comfort and togetherness.</p>
+                        <div class="features-list">
+                            <div class="feature">
+                                <i class="fas fa-bed"></i>
+                                <span>4 Bedrooms</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-users"></i>
+                                <span>6-8 Guests</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-wifi"></i>
+                                <span>Free WiFi</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-details">
+                            <i class="fas fa-info-circle"></i> View Details
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features">
+            <div class="section-header">
+                <span class="section-label">Why Choose Us</span>
+                <h2>The Griya Satya Experience</h2>
+                <p class="section-subtitle">More than just a place to stay — it's where memories are made</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Home Away From Home</h3>
+                    <p>Every detail is designed with your comfort in mind, from soft linens to a fully-equipped kitchen.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Perfect Location</h3>
+                    <p>Nestled in a peaceful neighborhood, yet close to Semarang's attractions, restaurants, and
+                        shopping.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Personal Touch</h3>
+                    <p>We treat every guest like family. Your comfort and happiness are our top priorities.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h3>Affordable Comfort</h3>
+                    <p>Experience a cozy, homey stay without breaking the bank. Quality stays at honest prices.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="assets/gs1front.jpg" alt="Griya Satya guest house exterior">
+                    <div class="experience-badge">
+                        <span class="number">100+</span>
+                        <span class="text">Happy Families Hosted</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-label">Our Story</span>
+                    <h2>A Labor of Love</h2>
+                    <p class="lead">Griya Satya was born from a simple dream: to create spaces where travelers feel
+                        truly at home.</p>
+                    <p>Since 2020, we've opened our doors to families, friends, and solo adventurers from all walks of
+                        life. What started as two humble guest houses has grown into a beloved haven for those exploring
+                        the beauty of Semarang.</p>
+                    <p>Every morning coffee, every shared meal, every story exchanged — these moments remind us why we
+                        do what we do. We're not just offering rooms; we're offering a piece of our home and heart.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">2</span>
+                            <span class="stat-label">Guest Houses</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">7</span>
+                            <span class="stat-label">Cozy Rooms</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years of Warmth</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="cta">
+            <div class="cta-content">
+                <h2>Ready to Feel at Home?</h2>
+                <p>Book your stay at Griya Satya and experience the warmth of Javanese hospitality.</p>
+                <div class="cta-buttons">
+                    <a href="#guesthouse" class="btn btn-primary btn-large">
+                        <i class="fab fa-airbnb"></i> Book on Airbnb
+                    </a>
+                    <a href="https://wa.me/yourphonenumber" target="_blank" class="btn btn-outline btn-large">
+                        <i class="fab fa-whatsapp"></i> Ask a Question
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="assets/logo.png" alt="Griya Satya Logo">
+                <p>Your home away from home in the heart of Semarang.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#guesthouse">Our Homes</a></li>
+                    <li><a href="#features">Amenities</a></li>
+                    <li><a href="#about">Our Story</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Get in Touch</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Semarang, Central Java, Indonesia</p>
+                <p><i class="fab fa-whatsapp"></i> 085950519424</p>
+                <p><i class="fas fa-envelope"></i> griyasatyasemarang@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Griya Satya. All rights reserved. Made with <i class="fas fa-heart"></i> in Semarang.</p>
+        </div>
+    </footer>
+
+    <!-- Detail Modal -->
+    <div id="detailModal" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-content">
+                <div class="modal-gallery">
+                    <div class="modal-image-wrapper">
+                        <button class="modal-nav prev" aria-label="Previous image">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <img id="modalMainImage" src="" alt="">
+                        <button class="modal-nav next" aria-label="Next image">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <div class="modal-thumbnails" id="modalThumbnails"></div>
+                </div>
+                <div class="modal-info">
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalDescription" class="modal-description"></p>
+
+                    <div class="modal-features">
+                        <h4>Amenities & Features</h4>
+                        <div class="modal-features-grid">
+                            <div class="modal-feature">
+                                <i class="fas fa-bed"></i>
+                                <span id="modalRooms"></span>
+                            </div>
+                            <div class="modal-feature">
+                                <i class="fas fa-users"></i>
+                                <span id="modalGuests"></span>
+                            </div>
+                            <div class="modal-feature">
+                                <i class="fas fa-wifi"></i>
+                                <span>Free WiFi</span>
+                            </div>
+                            <div class="modal-feature">
+                                <i class="fas fa-snowflake"></i>
+                                <span>Air Conditioning</span>
+                            </div>
+                            <div class="modal-feature">
+                                <i class="fas fa-parking"></i>
+                                <span>Free Parking</span>
+                            </div>
+                            <div class="modal-feature">
+                                <i class="fas fa-utensils"></i>
+                                <span>Full Kitchen</span>
+                            </div>
+                            <div class="modal-feature">
+                                <i class="fas fa-tv"></i>
+                                <span>Smart TV</span>
+                            </div>
+                            <div class="modal-feature">
+                                <i class="fas fa-shower"></i>
+                                <span>Hot Water</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-actions">
+                        <a id="modalAirbnbLink" href="" target="_blank" class="btn btn-primary btn-large">
+                            <i class="fab fa-airbnb"></i> Book on Airbnb
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>

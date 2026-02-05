@@ -1,0 +1,28 @@
+{
+    "name": "griya-satya-website",
+    "version": "1.0.0",
+    "description": "🏠 Griya Satya Guest House - A modern, responsive website for a cozy guest house in Semarang, Indonesia",
+    "author": "Griya Satya",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "vite": "^5.0.0"
+    },
+    "keywords": [
+        "guest-house",
+        "semarang",
+        "indonesia",
+        "hospitality",
+        "travel",
+        "accommodation"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/adhiyasaa/griyasatya.git"
+    }
+}
